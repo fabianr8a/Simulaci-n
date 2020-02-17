@@ -66,8 +66,9 @@ public class Cerdo {
             
     public boolean seAdaptoAlAmbiente (String ambiente){
         if (ambiente.equalsIgnoreCase("calida")) {
-            
+            return true;
         } else {
+            return false;
         }
     }
          
